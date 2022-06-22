@@ -1,4 +1,4 @@
-package base;
+package amazontest;
 
 import java.time.Duration;
 
@@ -7,35 +7,32 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
-import common.CommonActions;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import objects.LandingPage;
-import objects.ZipCodePage;
 
 public class BaseClass {
-
-	public static WebDriver driver;
-	public LandingPage landingPage;
-	public CommonActions commonActions;
-	public ZipCodePage zipCodePage;
+public	WebDriver driver;
+public	MainPage mainPage;
+public	MusicPage musicPage;
+public SignInPage signinPage;
 	@BeforeMethod
 	public void setUp() {
 		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
-		driver.get("https://www.progressive.com");
+	    driver = new ChromeDriver();
+		driver.get("https://www.amazon.com");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		initClasses();
 	}
+
 	@AfterMethod
-	public void cleaningUp() {
+	public void quittingDriver() {
 		driver.quit();
 	}
 	
 	private void initClasses() {
-		landingPage = new LandingPage(driver);
-		commonActions = new CommonActions();
-		zipCodePage =new ZipCodePage(driver);
+		mainPage = new MainPage(driver);
+		musicPage = new MusicPage(driver);
+		signinPage = new SignInPage(driver);
 	}
 }

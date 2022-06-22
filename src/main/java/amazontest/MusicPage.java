@@ -1,4 +1,4 @@
-package objects;
+package amazontest;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

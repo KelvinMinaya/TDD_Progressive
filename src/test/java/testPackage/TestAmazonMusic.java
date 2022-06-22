@@ -6,9 +6,9 @@ import org.testng.annotations.Test;
 
 import com.github.dockerjava.api.model.Driver;
 
-import base.BaseClass;
-import objects.MainPage;
-import objects.MusicPage;
+import amazontest.BaseClass;
+import amazontest.MainPage;
+import amazontest.MusicPage;
 
 public class TestAmazonMusic extends BaseClass {
 	@Test
