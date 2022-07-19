@@ -10,6 +10,7 @@ import org.testng.annotations.BeforeMethod;
 import common.CommonActions;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import objects.LandingPage;
+import objects.StartPage;
 import objects.ZipCodePage;
 
 public class BaseClass {
@@ -18,6 +19,8 @@ public class BaseClass {
 	public LandingPage landingPage;
 	public CommonActions commonActions;
 	public ZipCodePage zipCodePage;
+	public StartPage startPage;
+
 	@BeforeMethod
 	public void setUp() {
 		WebDriverManager.chromedriver().setup();
@@ -28,14 +31,16 @@ public class BaseClass {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		initClasses();
 	}
+
 	@AfterMethod
 	public void cleaningUp() {
 		driver.quit();
 	}
-	
+
 	private void initClasses() {
-		landingPage = new LandingPage(driver);
 		commonActions = new CommonActions();
-		zipCodePage =new ZipCodePage(driver);
+		landingPage = new LandingPage(driver);
+		zipCodePage = new ZipCodePage(driver);
+		startPage = new StartPage(driver);
 	}
 }

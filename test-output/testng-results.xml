@@ -2,26 +2,260 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Element is Clicking[[ChromeDriver: chrome on WINDOWS (eaae86905588bcf48e1a7fbae2223358)] -> xpath: (//p[contains(text(),'Auto')])[1]]]]>
+      <![CDATA[Element is Clicking: [[ChromeDriver: chrome on WINDOWS (f064d94459dbde46d733d71ab3dd1464)] -> xpath: (//p[contains(text(),'Auto')])[1]]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Element is not found[[ChromeDriver: chrome on WINDOWS (f064d94459dbde46d733d71ab3dd1464)] -> xpath: (//*[@name='ZipCode'])[1]]
+element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'DESKTOP-T4BV0IS', ip: '192.168.68.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f064d94459dbde46d733d71ab3dd1464, sendKeysToElement {id=25edf49c-15e0-4600-b47e-973f6b812ec7, value=[Ljava.lang.CharSequence;@4d41ba0f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Beloved\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50812}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50812/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (f064d94459dbde46d733d71ab3dd1464)] -> xpath: (//*[@name='ZipCode'])[1]]
+Session ID: f064d94459dbde46d733d71ab3dd1464]]>
+    </line>
+    <line>
+      <![CDATA[Element is unable to click[[ChromeDriver: chrome on WINDOWS (f064d94459dbde46d733d71ab3dd1464)] -> xpath: (//input[@id='qsButton_overlay'])[1]]
+Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (f064d94459dbde46d733d71ab3dd1464)] -> xpath: (//input[@id='qsButton_overlay'])[1]] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'DESKTOP-T4BV0IS', ip: '192.168.68.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Beloved\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50812}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50812/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f064d94459dbde46d733d71ab3dd1464]]>
+    </line>
+    <line>
+      <![CDATA[Element is not foundProxy element for: DefaultElementLocator 'By.id: NameAndAddressEdit_embedded_questions_list_FirstName'
+no such element: Unable to locate element: {"method":"css selector","selector":"#NameAndAddressEdit_embedded_questions_list_FirstName"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'DESKTOP-T4BV0IS', ip: '192.168.68.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f064d94459dbde46d733d71ab3dd1464, findElement {using=id, value=NameAndAddressEdit_embedded_questions_list_FirstName}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Beloved\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50812}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50812/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f064d94459dbde46d733d71ab3dd1464]]>
+    </line>
+    <line>
+      <![CDATA[Element is not foundProxy element for: DefaultElementLocator 'By.id: NameAndAddressEdit_embedded_questions_list_MiddleInitial'
+no such element: Unable to locate element: {"method":"css selector","selector":"#NameAndAddressEdit_embedded_questions_list_MiddleInitial"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'DESKTOP-T4BV0IS', ip: '192.168.68.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f064d94459dbde46d733d71ab3dd1464, findElement {using=id, value=NameAndAddressEdit_embedded_questions_list_MiddleInitial}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Beloved\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50812}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50812/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f064d94459dbde46d733d71ab3dd1464]]>
+    </line>
+    <line>
+      <![CDATA[Element is not foundProxy element for: DefaultElementLocator 'By.id: NameAndAddressEdit_embedded_questions_list_LastName'
+no such element: Unable to locate element: {"method":"css selector","selector":"#NameAndAddressEdit_embedded_questions_list_LastName"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'DESKTOP-T4BV0IS', ip: '192.168.68.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f064d94459dbde46d733d71ab3dd1464, findElement {using=id, value=NameAndAddressEdit_embedded_questions_list_LastName}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Beloved\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50812}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50812/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f064d94459dbde46d733d71ab3dd1464]]>
+    </line>
+    <line>
+      <![CDATA[Locator is not foundProxy element for: DefaultElementLocator 'By.id: NameAndAddressEdit_embedded_questions_list_Suffix'
+Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: NameAndAddressEdit_embedded_questions_list_Suffix' (tried for 5 second(s) with 500 milliseconds interval)]]>
+    </line>
+    <line>
+      <![CDATA[Element is not foundProxy element for: DefaultElementLocator 'By.id: NameAndAddressEdit_embedded_questions_list_DateOfBirth'
+no such element: Unable to locate element: {"method":"css selector","selector":"#NameAndAddressEdit_embedded_questions_list_DateOfBirth"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'DESKTOP-T4BV0IS', ip: '192.168.68.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f064d94459dbde46d733d71ab3dd1464, findElement {using=id, value=NameAndAddressEdit_embedded_questions_list_DateOfBirth}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Beloved\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50812}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50812/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f064d94459dbde46d733d71ab3dd1464]]>
+    </line>
+    <line>
+      <![CDATA[Element is not foundProxy element for: DefaultElementLocator 'By.id: NameAndAddressEdit_embedded_questions_list_MailingAddress'
+no such element: Unable to locate element: {"method":"css selector","selector":"#NameAndAddressEdit_embedded_questions_list_MailingAddress"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'DESKTOP-T4BV0IS', ip: '192.168.68.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f064d94459dbde46d733d71ab3dd1464, findElement {using=id, value=NameAndAddressEdit_embedded_questions_list_MailingAddress}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Beloved\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50812}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50812/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f064d94459dbde46d733d71ab3dd1464]]>
+    </line>
+    <line>
+      <![CDATA[Element is not foundProxy element for: DefaultElementLocator 'By.id: id="NameAndAddressEdit_embedded_questions_list_ApartmentUnit"'
+no such element: Unable to locate element: {"method":"css selector","selector":"#id\=\"NameAndAddressEdit_embedded_questions_list_ApartmentUnit\""}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'DESKTOP-T4BV0IS', ip: '192.168.68.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f064d94459dbde46d733d71ab3dd1464, findElement {using=id, value=id="NameAndAddressEdit_embedded_questions_list_ApartmentUnit"}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Beloved\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50812}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50812/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f064d94459dbde46d733d71ab3dd1464]]>
+    </line>
+    <line>
+      <![CDATA[Element is not foundProxy element for: DefaultElementLocator 'By.id: NameAndAddressEdit_embedded_questions_list_City'
+no such element: Unable to locate element: {"method":"css selector","selector":"#NameAndAddressEdit_embedded_questions_list_City"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'DESKTOP-T4BV0IS', ip: '192.168.68.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f064d94459dbde46d733d71ab3dd1464, findElement {using=id, value=NameAndAddressEdit_embedded_questions_list_City}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Beloved\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50812}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50812/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f064d94459dbde46d733d71ab3dd1464]]>
+    </line>
+    <line>
+      <![CDATA[Element not foundProxy element for: DefaultElementLocator 'By.tagName: checkbox-input'
+Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.tagName: checkbox-input' (tried for 5 second(s) with 500 milliseconds interval)]]>
+    </line>
+    <line>
+      <![CDATA[Element is unable to clickProxy element for: DefaultElementLocator 'By.className: blue'
+Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.className: blue' (tried for 5 second(s) with 500 milliseconds interval)]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-06-20T08:38:09 EDT" name="Default suite" finished-at="2022-06-20T08:38:15 EDT" duration-ms="6616">
+  <suite started-at="2022-07-13T09:29:36 EDT" name="Default suite" finished-at="2022-07-13T09:33:47 EDT" duration-ms="250262">
     <groups>
     </groups>
-    <test started-at="2022-06-20T08:38:09 EDT" name="Default test" finished-at="2022-06-20T08:38:15 EDT" duration-ms="6616">
+    <test started-at="2022-07-13T09:29:36 EDT" name="Default test" finished-at="2022-07-13T09:33:47 EDT" duration-ms="250262">
       <class name="progressisve.qa.test.AutoTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:progressisve.qa.test.AutoTest@35aea049]" started-at="2022-06-20T08:38:09 EDT" name="setUp" finished-at="2022-06-20T08:38:15 EDT" duration-ms="6201" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:progressisve.qa.test.AutoTest@35aea049]" started-at="2022-07-13T09:29:37 EDT" name="setUp" finished-at="2022-07-13T09:29:40 EDT" duration-ms="3440" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="autoTest()[pri:0, instance:progressisve.qa.test.AutoTest@35aea049]" started-at="2022-06-20T08:38:15 EDT" name="autoTest" finished-at="2022-06-20T08:38:15 EDT" duration-ms="196" status="PASS">
+        <test-method signature="autoTest()[pri:0, instance:progressisve.qa.test.AutoTest@35aea049]" started-at="2022-07-13T09:29:40 EDT" name="autoTest" finished-at="2022-07-13T09:33:47 EDT" duration-ms="246610" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Element is Clicking[[ChromeDriver: chrome on WINDOWS (eaae86905588bcf48e1a7fbae2223358)] -> xpath: (//p[contains(text(),'Auto')])[1]]]]>
+              <![CDATA[Element is Clicking: [[ChromeDriver: chrome on WINDOWS (f064d94459dbde46d733d71ab3dd1464)] -> xpath: (//p[contains(text(),'Auto')])[1]]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Element is not found[[ChromeDriver: chrome on WINDOWS (f064d94459dbde46d733d71ab3dd1464)] -> xpath: (//*[@name='ZipCode'])[1]]
+element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'DESKTOP-T4BV0IS', ip: '192.168.68.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f064d94459dbde46d733d71ab3dd1464, sendKeysToElement {id=25edf49c-15e0-4600-b47e-973f6b812ec7, value=[Ljava.lang.CharSequence;@4d41ba0f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Beloved\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50812}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50812/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (f064d94459dbde46d733d71ab3dd1464)] -> xpath: (//*[@name='ZipCode'])[1]]
+Session ID: f064d94459dbde46d733d71ab3dd1464]]>
+            </line>
+            <line>
+              <![CDATA[Element is unable to click[[ChromeDriver: chrome on WINDOWS (f064d94459dbde46d733d71ab3dd1464)] -> xpath: (//input[@id='qsButton_overlay'])[1]]
+Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (f064d94459dbde46d733d71ab3dd1464)] -> xpath: (//input[@id='qsButton_overlay'])[1]] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'DESKTOP-T4BV0IS', ip: '192.168.68.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Beloved\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50812}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50812/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f064d94459dbde46d733d71ab3dd1464]]>
+            </line>
+            <line>
+              <![CDATA[Element is not foundProxy element for: DefaultElementLocator 'By.id: NameAndAddressEdit_embedded_questions_list_FirstName'
+no such element: Unable to locate element: {"method":"css selector","selector":"#NameAndAddressEdit_embedded_questions_list_FirstName"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'DESKTOP-T4BV0IS', ip: '192.168.68.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f064d94459dbde46d733d71ab3dd1464, findElement {using=id, value=NameAndAddressEdit_embedded_questions_list_FirstName}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Beloved\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50812}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50812/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f064d94459dbde46d733d71ab3dd1464]]>
+            </line>
+            <line>
+              <![CDATA[Element is not foundProxy element for: DefaultElementLocator 'By.id: NameAndAddressEdit_embedded_questions_list_MiddleInitial'
+no such element: Unable to locate element: {"method":"css selector","selector":"#NameAndAddressEdit_embedded_questions_list_MiddleInitial"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'DESKTOP-T4BV0IS', ip: '192.168.68.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f064d94459dbde46d733d71ab3dd1464, findElement {using=id, value=NameAndAddressEdit_embedded_questions_list_MiddleInitial}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Beloved\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50812}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50812/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f064d94459dbde46d733d71ab3dd1464]]>
+            </line>
+            <line>
+              <![CDATA[Element is not foundProxy element for: DefaultElementLocator 'By.id: NameAndAddressEdit_embedded_questions_list_LastName'
+no such element: Unable to locate element: {"method":"css selector","selector":"#NameAndAddressEdit_embedded_questions_list_LastName"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'DESKTOP-T4BV0IS', ip: '192.168.68.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f064d94459dbde46d733d71ab3dd1464, findElement {using=id, value=NameAndAddressEdit_embedded_questions_list_LastName}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Beloved\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50812}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50812/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f064d94459dbde46d733d71ab3dd1464]]>
+            </line>
+            <line>
+              <![CDATA[Locator is not foundProxy element for: DefaultElementLocator 'By.id: NameAndAddressEdit_embedded_questions_list_Suffix'
+Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: NameAndAddressEdit_embedded_questions_list_Suffix' (tried for 5 second(s) with 500 milliseconds interval)]]>
+            </line>
+            <line>
+              <![CDATA[Element is not foundProxy element for: DefaultElementLocator 'By.id: NameAndAddressEdit_embedded_questions_list_DateOfBirth'
+no such element: Unable to locate element: {"method":"css selector","selector":"#NameAndAddressEdit_embedded_questions_list_DateOfBirth"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'DESKTOP-T4BV0IS', ip: '192.168.68.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f064d94459dbde46d733d71ab3dd1464, findElement {using=id, value=NameAndAddressEdit_embedded_questions_list_DateOfBirth}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Beloved\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50812}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50812/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f064d94459dbde46d733d71ab3dd1464]]>
+            </line>
+            <line>
+              <![CDATA[Element is not foundProxy element for: DefaultElementLocator 'By.id: NameAndAddressEdit_embedded_questions_list_MailingAddress'
+no such element: Unable to locate element: {"method":"css selector","selector":"#NameAndAddressEdit_embedded_questions_list_MailingAddress"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'DESKTOP-T4BV0IS', ip: '192.168.68.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f064d94459dbde46d733d71ab3dd1464, findElement {using=id, value=NameAndAddressEdit_embedded_questions_list_MailingAddress}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Beloved\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50812}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50812/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f064d94459dbde46d733d71ab3dd1464]]>
+            </line>
+            <line>
+              <![CDATA[Element is not foundProxy element for: DefaultElementLocator 'By.id: id="NameAndAddressEdit_embedded_questions_list_ApartmentUnit"'
+no such element: Unable to locate element: {"method":"css selector","selector":"#id\=\"NameAndAddressEdit_embedded_questions_list_ApartmentUnit\""}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'DESKTOP-T4BV0IS', ip: '192.168.68.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f064d94459dbde46d733d71ab3dd1464, findElement {using=id, value=id="NameAndAddressEdit_embedded_questions_list_ApartmentUnit"}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Beloved\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50812}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50812/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f064d94459dbde46d733d71ab3dd1464]]>
+            </line>
+            <line>
+              <![CDATA[Element is not foundProxy element for: DefaultElementLocator 'By.id: NameAndAddressEdit_embedded_questions_list_City'
+no such element: Unable to locate element: {"method":"css selector","selector":"#NameAndAddressEdit_embedded_questions_list_City"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'DESKTOP-T4BV0IS', ip: '192.168.68.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f064d94459dbde46d733d71ab3dd1464, findElement {using=id, value=NameAndAddressEdit_embedded_questions_list_City}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Beloved\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50812}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50812/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f064d94459dbde46d733d71ab3dd1464]]>
+            </line>
+            <line>
+              <![CDATA[Element not foundProxy element for: DefaultElementLocator 'By.tagName: checkbox-input'
+Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.tagName: checkbox-input' (tried for 5 second(s) with 500 milliseconds interval)]]>
+            </line>
+            <line>
+              <![CDATA[Element is unable to clickProxy element for: DefaultElementLocator 'By.className: blue'
+Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.className: blue' (tried for 5 second(s) with 500 milliseconds interval)]]>
             </line>
           </reporter-output>
         </test-method> <!-- autoTest -->
-        <test-method is-config="true" signature="cleaningUp()[pri:0, instance:progressisve.qa.test.AutoTest@35aea049]" started-at="2022-06-20T08:38:15 EDT" name="cleaningUp" finished-at="2022-06-20T08:38:15 EDT" duration-ms="183" status="PASS">
+        <test-method is-config="true" signature="cleaningUp()[pri:0, instance:progressisve.qa.test.AutoTest@35aea049]" started-at="2022-07-13T09:33:47 EDT" name="cleaningUp" finished-at="2022-07-13T09:33:47 EDT" duration-ms="182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleaningUp -->
